@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+#main-feature{
+    background-color: #e7e7e8;
+    border-bottom: 3px solid #cdcdd7;
+}
+.col-lg-12{
+    text-align: center;
+    padding-bottom: 3rem!important;
+    padding-top: 3rem!important;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.toggle-main-feature{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
+    color: #3490dc;
+}
+.d-flex-justify{
+    display: flex!important;
+    margin-bottom: 1rem!important;
+    text-transform: none;
+}
+.d-flex1{
+    display: flex;
+    text-align: center;
+}
+/*--------------- icon ------------*/
+.icon-collapse{
+  width: 30px;
+  height: 24px;
+  margin-bottom: 6px;
+  margin-right: 10px;
+  border-style: none;
+  display: inline-block;
+  margin-top: -2px;
+}
+
+/*------------- text main ---------*/
+.text-main-flex{
+    padding: 00.5rem!important;
+}
+.text-main-1{
+    margin: 0!important;
+    margin-bottom: 0.5rem!important;
+    color: #3f3f3f;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*---------- icon arrow ----------*/
+.d-flex2-items{
+    padding: 0.5rem!important;
+    align-items: center!important;
+    display: flex!important;
+}
+.icon-arrow-up{
+  display: none;
+  padding: 0 16px;
+  margin-top: -2px;
+  vertical-align: middle;
+  border-style: none;
+}
+.icon-arrow-down{
+  padding: ;
+}

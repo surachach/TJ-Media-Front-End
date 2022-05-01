@@ -224,7 +224,7 @@ header{
 #mass-brand{
     background-color: #612c91;
     width: 100%;
-    height: 500px;
+    height: 600px;
     margin: auto
     
 }
@@ -366,6 +366,41 @@ header{
     margin: 0;
     line-height: 1.5;
 }
+
+/* กดปุ่ม  main  */
+.toggle-main-feature{
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;    
+}
+.align-items-center{
+    padding: 00.5rem;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.icon-arrow-up{
+    padding: 0 16px;
+    /* display: none; */
+    margin-top: -2px;
+    vertical-align: middle;
+    border-style: none;
+    text-align: center;
+}
+.icon-arrow-down{
+    padding: 0 16px;
+    display: none;
+    margin-top: -2px;
+    vertical-align: middle;
+    border-style: none;
+    text-align: center;
+}
+
+
 /*-------- หน้า advertiser -------*/
 #advertiser{
     background-color: #461860;
@@ -408,6 +443,149 @@ header{
     padding-right: 15px;
     padding-left: 15px;
 }
+
+/*-------- consolo-demo ---------*/
+#console-demo{
+    border-bottom: 3px solid #cdcdd7 ;
+}
+.col-12-console{
+    text-align: center;
+    padding-bottom: 3rem!important;
+    padding-top: 3rem!important;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.toggle-console-demo{
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+    box-shadow: none;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: .9rem;
+    line-height: 1.6;
+    border-radius: 0.25rem;
+    transition: color .15s;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    text-transform: none;
+    overflow: visible;
+    margin: 0;
+}
+.d-flex-justify-console{
+    text-align: center;
+    justify-content: center!important;
+    margin-bottom: 1rem!important;
+    display: flex!important;
+}
+.d-flex-console-demo{
+    display: flex!important;    
+}
+.align-items-center{
+    padding: 0.5rem!important;
+    align-items: center!important;
+    display: flex!important;
+}
+.icon-collapse-up{
+    width: 48px;
+    height: 48px;
+    margin-bottom: 6px;
+    margin-right: 10px;
+    margin-top: -2px;
+    vertical-align: middle;
+    border-style: none;
+}
+.head-title-console-demo{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 0.5rem!important;
+    margin: 0!important;
+    font-weight: 700;
+
+}
+.text-console-demo{
+    padding: 0.5rem!important;
+
+}
+.icon-arrow up{
+    padding: 0 16px;
+    margin-top: -2px;
+    vertical-align: middle;
+    border-style: none;
+}
+.d-flex-icon-2{
+    padding: 0.5rem!important;
+    align-items: center!important;
+    display: flex!important;
+    margin-left: 50px;
+}
+/*----------- ส่วนของ video --------*/
+#background-demo{
+    background-image: url(https://www.tjmediathailand.com/images/background-console-demo.png?432ee30a860286fa7c9f38e9b0fbbfb2);
+    
+    background-color: transparent;
+    width: 100%;
+    padding: 30px 0 130px;
+}
+.card-body{
+  flex: 1 1 auto;
+  min-height: 1px;
+}
+.container-demo{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.blackdrop{
+    width: 100%;
+    
+    margin: 0 auto;
+    max-width: 830px;
+    padding: 16px;
+    border-radius: 20px;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    background-color: hsla(0, 0%, 100%, .5);
+}
+.row-video{
+    
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.play-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0%;
+    border: unset;
+    outline: unset;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+.thumbnail-video{
+    
+    width: 100%;
+    margin: 0 auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
 /*----------- footer -------------*/
 #footer{
     background-image: url('/images/footer.png');

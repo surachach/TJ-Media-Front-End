@@ -151,14 +151,20 @@
         </div>
     <div id="main-feature" >
         <div class="headingOne">
-            <div class="main-container">
-                <div class="main-icon">
-                   <img src="https://www.tjmediathailand.com/images/icon/material-web.png"/>
-                   </div>
-                   <div class="main-text-head"><h1>Main Feature  </h1></div>
+            <button class="toggle-main-feature" onclick="onclickFeature()">
+                <div class="main-container">
+                    <div class="main-icon">
+                       <img src="https://www.tjmediathailand.com/images/icon/material-web.png"/>
+                       </div>
+                       <div class="main-text-head"><h1>Main Feature  </h1></div>
+                       <div class="align-items-center">
+                        <img src="https://www.tjmediathailand.com/images/icon/arrow-forward-up.png" class="icon-arrow-up" /> 
+                        <img src="https://www.tjmediathailand.com/images/icon/arrow-forward-down.png" class="icon-arrow-down" /> 
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="collapseOne">
+            </button>
+        <div id="collapseOne">
             <div class="real-time">
                 <div class="real-desktop-layout">
                     <div class="row-1">
@@ -182,24 +188,63 @@
                     </div>
                 </div>   
             </div>
-
+            <div id="advertiser">
+                <div class="container-fluid">
+                  <div class="row-3">
+                    <div class="box-advertiser">
+                        <h1 class="text-advertiser">Advertiser Console & Dashboard</h1>
+                    </div>
+                    <div class="img-advertiser">
+                       <div class="row3, text-center">
+                        <img src="https://www.tjmediathailand.com/images/advertiser.png"/>
+                       </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
         </div>
     </div>
-    <hr>    
-    <div id="advertiser">
-        <div class="container-fluid">
-          <div class="row-3">
-            <div class="box-advertiser">
-                <h1 class="text-advertiser">Advertiser Console & Dashboard</h1>
-            </div>
-            <div class="img-advertiser">
-               <div class="row3, text-center">
-                <img src="https://www.tjmediathailand.com/images/advertiser.png"/>
-               </div>
-            </div>
-          </div>
+    <!-- console-demo -->
+    <div id="console-demo" style="background-color: rgb(255,255,255);">
+      <div class="headingTwo">
+         <div class="col-12-console">
+            <button class="toggle-console-demo" onclick="onclickDemofuction()">
+                 <div class="d-flex-justify-console">
+                        <div class="d-flex-console-demo">
+                           <div class="align-items-center">
+                              <img src="https://www.tjmediathailand.com/images/icon/console-demo-black.png" class="icon-collapse-up" />
+                            </div>
+                                <div class="text-console-demo">
+                                  <h1 class="head-title-console-demo">
+                                    TJM DJ Console Demo 
+                                  </h1>
+                               </div>
+                        </div> 
+                        <div class="d-flex-icon-2">
+                           <img src="https://www.tjmediathailand.com/images/icon/arrow-forward-up.png" class="icon-arrow up" />
+                        </div>
+                 </div>
+            </button>
+         </div>
         </div>
-    </div>
+      </div>
+      <div class="collapseTwo">
+            <div class="card-body" id="background-demo">
+                <div class="container-demo">
+                    <div class="blackdrop">
+                      <div class="row-video">
+                          <button class="play-video">
+                            <img src="https://www.tjmediathailand.com/images/icon/play-video.png" />
+                          </button>
+                          <img src="https://www.tjmediathailand.com/images/thumbnail-video.png" class="thumbnail-video" />
+                      </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>    
+    
+    
     
 <footer id="footer">
     <div class="footer-container">
@@ -227,7 +272,30 @@
         </div>
     </div>    
 </footer>
+<!-- java Script -->
+<script>
+    function onclickFeature(){
+     var ele =document.getElementById("collapseOne");
+     if (ele.style.display ==="none") {
+         ele.style.display = "block";
+     } else {
+         ele.style.display = "none";
+     }
+    };
+    
+    function onclickDemofuction(){
+      var show = document.getElementById("collapseTwo");
+      if (show.style.display ==="none"){
+          show.style.display = "block";
+      } else {
+          show.style.display = "none";
+      }
+    }
 
+   
+    
+
+</script>
 
 </body>
 </html>
