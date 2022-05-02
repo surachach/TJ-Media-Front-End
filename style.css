@@ -1,648 +1,721 @@
-*{
-    box-sizing: border-box;
-    font-family: Kanit,sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: Kanit, sans-serif;
 }
-div{
-    display: block;
+
+div {
+  display: block;
 }
-p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 
 /*------------ header ----------*/
-header{
-    background-color: #f8fafc;
-}
-.nav{
-    display: flex;
-    height: 80px;
-    /* border:  solid black; */
-}
-.nav-list{
-    /* border: solid black; */
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-    font-weight: bold;
-}
-#logo-left{
-    margin-left: 200px;
+header {
+  background-color: #f8fafc;
 }
 
-#logo-right{
-    margin-left: auto;
-    margin-right: 200px;
-}
-.nav p:nth-of-type(2){
-    padding-top: 5px;
-    border-bottom:5px solid #ef9c28 ;
-    margin: 0 40px;
+.nav {
+  display: flex;
+  height: 80px;
+  /* border:  solid black; */
 }
 
-.nav-list:hover{
-    cursor: pointer;
-    color: #f05928;
-    transition: color 0.3s linear;
+.nav-list {
+  /* border: solid black; */
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
 }
+
+#logo-left {
+  margin-left: 200px;
+}
+
+#logo-right {
+  margin-left: auto;
+  margin-right: 200px;
+}
+
+.nav p:nth-of-type(2) {
+  padding-top: 5px;
+  border-bottom: 5px solid #ef9c28;
+  margin: 0 40px;
+}
+
+.nav-list:hover {
+  cursor: pointer;
+  color: #f05928;
+  transition: color 0.3s linear;
+}
+
 /*----- หน้าแรก  THAILAND LARGEST ----- */
-.first-container{  
-    width: 100%;
-    height: 770px;
-    background-image:url(https://www.tjmediathailand.com/images/banner-desktop.png?a82431955001adf94873421334fb51b8);
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover;
+.first-container {
+  width: 100%;
+  height: 770px;
+  background-image: url(https://www.tjmediathailand.com/images/banner-desktop.png?a82431955001adf94873421334fb51b8);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
-.detail-1-container{
-    text-align: center;
-    color:  #f05928;
-    font-size: 17px;
-    padding: 2px;
+
+.detail-1-container {
+  text-align: center;
+  color: #f05928;
+  font-size: 17px;
+  padding: 2px;
 }
+
 .detail-2-container {
-    text-align: center;
-    color: #fff;
-    font-size: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
 }
-.detail-3-container{
-    text-align: center;
-    color:  #f05928;
-    font-size: 17px;
+
+.detail-3-container {
+  text-align: center;
+  color: #f05928;
+  font-size: 17px;
 }
-.header-sec{
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-    display: flex;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 80%;
+
+.header-sec {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
 }
-.sec-1{
-    text-align: center;
-    /* border: solid black; */
-    margin-top: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
+
+.sec-1 {
+  text-align: center;
+  /* border: solid black; */
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
+
 .detail-sec-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-    /* ให้เริ่มพร้อมกัน */
-    align-items:flex-start;   
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  /* ให้เริ่มพร้อมกัน */
+  align-items: flex-start;
 }
-.detail{
-    width:  16%;
-    padding-left: 5px;
-    padding-right: 5px;
-    align-items: center;
+
+.detail {
+  width: 16%;
+  padding-left: 5px;
+  padding-right: 5px;
+  align-items: center;
 }
+
 .detail-sec {
-    /* background-color: blueviolet;
+  /* background-color: blueviolet;
     border: 2px solid blueviolet; */
-    font-size: 20px;
-    padding: 16px;
-    border-radius: 10px;
-    color: #212529;
+  font-size: 20px;
+  padding: 16px;
+  border-radius: 10px;
+  color: #212529;
 }
 
 /*-------- หน้าทำสไล์ ----------*/
-#slider-container{
-    margin: 0 auto 0 auto;
-    max-width: 850px;
-    height: 280px;
-    border: 0;
-    border-radius: 10px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    /* border: 1px solid red; */
-
+#slider-container {
+  margin: 0 auto 0 auto;
+  max-width: 850px;
+  height: 280px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid red; */
 }
 
 /*------ หน้า First time --------*/
-#first-time-container{
-    background-color: #e4e4e4;
+#first-time-container {
+  background-color: #e4e4e4;
 }
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -15px;
-    margin-left: -15px;
-}
-.first-time-text{
-    text-align: center;
-    font-size: 44px;
-    color: #3f3f3f;
-    padding-top: 3rem;
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;   
-}
-.first-time-image{  
-    width: 100%;
-    height: 900px;
-    background-image: url('/images/first_time_in_thailand.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    position: relative;
-    padding: 32px 0;          
-}
-.col-lg{
-    top: 70%;
-    margin-top: 750px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    width: 80%;
-    margin-left: 170px;
-    margin-right: 170px;
-    padding: 4px 0;
-    background-color: #fff;
-}
-.text-center-title{
-    color: #f05928;
-    font-size: 26px;
-    font-weight: bold;
-    
-}
-.text-center desc{
-    color: black;
-    font-size: 18px;
-}
-/* หน้า innovative */
-#innovative{
-    background-image: unset;
-    padding: 60px 0;
-    background-color: #fff;
-    padding: 0;
-    text-align: center;
-    width: auto;
-    height: 800px;
-    
-    
-    
-}
-.img-innovative{
-    margin-top: 50px;
-    width: 172px;
-    height: 120px;
-    
-}
-.title-innovative{
-    font-size: 36px;
-    font-weight: 700;
-    color: #3f3f3f;
-    
-}
-.context-destop{
-    padding: 0;
-}
-.innovative-detail{
-    text-align:left
-}
-.d-flex{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-left: 300px;
-    margin-right: 300px;
-    font-size: 20px
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-left: -15px;
 }
+
+.first-time-text {
+  text-align: center;
+  font-size: 44px;
+  color: #3f3f3f;
+  padding-top: 3rem;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.first-time-image {
+  width: 100%;
+  height: 900px;
+  background-image: url("/images/first_time_in_thailand.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  padding: 32px 0;
+}
+
+.col-lg {
+  top: 70%;
+  margin-top: 750px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  width: 80%;
+  margin-left: 170px;
+  margin-right: 170px;
+  padding: 4px 0;
+  background-color: #fff;
+}
+
+.text-center-title {
+  color: #f05928;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.text-center desc {
+  color: black;
+  font-size: 18px;
+}
+
+/* หน้า innovative */
+#innovative {
+  background-image: unset;
+  padding: 60px 0;
+  background-color: #fff;
+  padding: 0;
+  text-align: center;
+  width: auto;
+  height: 800px;
+}
+
+.img-innovative {
+  margin-top: 50px;
+  width: 172px;
+  height: 120px;
+}
+
+.title-innovative {
+  font-size: 36px;
+  font-weight: 700;
+  color: #3f3f3f;
+}
+
+.context-destop {
+  padding: 0;
+}
+
+.innovative-detail {
+  text-align: left;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 20px;
+}
+
 /*---------- หน้า MASS ---------*/
-#mass-brand{
-    background-color: #612c91;
-    width: 100%;
-    height: 600px;
-    margin: auto
-    
+#mass-brand {
+  background-color: #612c91;
+  width: 100%;
+  height: 600px;
+  margin: auto;
 }
-.mass{
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-    color: aliceblue;
-    /* border: solid black; */
-    margin-top: 0;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
+
+.mass {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: aliceblue;
+  /* border: solid black; */
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
 }
-.mass-2{
-    text-align: center;
-    /* border: solid black; */
-    margin-top: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
+
+.mass-2 {
+  text-align: center;
+  /* border: solid black; */
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
+
 .box-mass {
-    display: block;
-    box-sizing: border-box;
-    width: 17%;
-    padding-left: 5px;
-    padding-right: 5px;
-     
+  display: block;
+  box-sizing: border-box;
+  width: 17%;
+  padding-left: 5px;
+  padding-right: 5px;
 }
+
 .flexbox-mass {
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* ให้เริ่มพร้อมกัน */
-    align-items:flex-start; 
-      
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* ให้เริ่มพร้อมกัน */
+  align-items: flex-start;
 }
+
 .content-mass {
-    /* background-color: blueviolet;
+  /* background-color: blueviolet;
     border: 2px solid blueviolet; */
-    padding: 16px;
-    border-radius: 10px;
-    color: aliceblue;
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+  padding: 16px;
+  border-radius: 10px;
+  color: aliceblue;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
+
 /*-------- หน้า Main Feature ------*/
 
-#main-feature{
-    border-bottom: 3px solid #cdccdc;
-    
-    
+#main-feature {
+  border-bottom: 3px solid #cdccdc;
 }
-.main-container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+
+.main-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
-.main-icon{
-    width: 48px;
-    margin-top: 10px;
-    margin-right: 10px;
+
+.main-icon {
+  width: 48px;
+  margin-top: 10px;
+  margin-right: 10px;
 }
-.main-text-head{
-    font-size: 30px;
-    padding: 0.7rem;
+
+.main-text-head {
+  font-size: 30px;
+  padding: 0.7rem;
 }
-.real-time{
-    background-image: url(https://www.tjmediathailand.com/images/real-time-desktop.png?6c95bfa2b25e03767b2f33d917cf2411);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-color: #e7e7e8;
-    width: 100%;
+
+.real-time {
+  background-image: url(https://www.tjmediathailand.com/images/real-time-desktop.png?6c95bfa2b25e03767b2f33d917cf2411);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #e7e7e8;
+  width: 100%;
 }
-.real-time-detail{
-    padding: 40px 0 207px;
-    margin-left: 250px;
-    margin-right: 250px;
+
+.real-time-detail {
+  padding: 40px 0 207px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
-.real-desktop-layout{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+
+.real-desktop-layout {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.row{
-    display:flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
-.orange-text-1{
-    font-size: 48px;
-    color: #f05925;
-    font-weight: 700;
-    line-height: 1.5;
-    margin-bottom: 0;
+
+.orange-text-1 {
+  font-size: 48px;
+  color: #f05925;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 0;
 }
-.orange-text-2{
-    font-size: 33px;
-    line-height: 1.5;
-    color: #f05928
+
+.orange-text-2 {
+  font-size: 33px;
+  line-height: 1.5;
+  color: #f05928;
 }
-.sub-title{
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
+
+.sub-title {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
-.dot{
-    color: #f05928;
+
+.dot {
+  color: #f05928;
 }
-.desc{
-    color: #999;
-    font-size: 20px;
-    margin-left: -5px;
+
+.desc {
+  color: #999;
+  font-size: 20px;
+  margin-left: -5px;
 }
-.row-datail-2{
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+
+.row-datail-2 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-.title-warning{
-    color: #999;
-    font-size: 16px;
-    margin-bottom: 0;
+
+.title-warning {
+  color: #999;
+  font-size: 16px;
+  margin-bottom: 0;
 }
-.desc-warning{
-    color: #999;
-    font-size: 12px;
-    margin: 0;
-    line-height: 1.5;
+
+.desc-warning {
+  color: #999;
+  font-size: 12px;
+  margin: 0;
+  line-height: 1.5;
 }
 
 /* กดปุ่ม  main  */
-.toggle-main-feature{
-    text-align: center;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;    
-}
-.align-items-center{
-    padding: 00.5rem;
-    align-items: center;
-    display: flex;
-    text-align: center;
-}
-.icon-arrow-up{
-    padding: 0 16px;
-    /* display: none; */
-    margin-top: -2px;
-    vertical-align: middle;
-    border-style: none;
-    text-align: center;
-}
-.icon-arrow-down{
-    padding: 0 16px;
-    display: none;
-    margin-top: -2px;
-    vertical-align: middle;
-    border-style: none;
-    text-align: center;
+.toggle-main-feature {
+  text-align: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
+.align-items-center {
+  padding: 00.5rem;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.icon-arrow-up {
+  padding: 0 16px;
+  /* display: none; */
+  margin-top: -2px;
+  vertical-align: middle;
+  border-style: none;
+  text-align: center;
+}
+
+.icon-arrow-down {
+  padding: 0 16px;
+  display: none;
+  margin-top: -2px;
+  vertical-align: middle;
+  border-style: none;
+  text-align: center;
+}
 
 /*-------- หน้า advertiser -------*/
-#advertiser{
-    background-color: #461860;
-    margin-top: -30px;
+#advertiser {
+  background-color: #461860;
+  margin-top: -30px;
 }
-.container-fluid{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.text-advertiser{
-    font-size: 48px;
-    color: #fff;
-    margin: 0!important;
-    text-align: center;
-    margin-bottom: 0.5rem!important;
 
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.box-advertiser{
-    padding-top: 3rem!important;
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+
+.text-advertiser {
+  font-size: 48px;
+  color: #fff;
+  margin: 0 !important;
+  text-align: center;
+  margin-bottom: 0.5rem !important;
 }
-.row-3{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+
+.box-advertiser {
+  padding-top: 3rem !important;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-.text-center{
-    text-align: center!important;
+
+.row-3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
-.img-advertiser{
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+
+.text-center {
+  text-align: center !important;
+}
+
+.img-advertiser {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /*-------- consolo-demo ---------*/
-#console-demo{
-    border-bottom: 3px solid #cdcdd7 ;
+#console-demo {
+  border-bottom: 3px solid #cdcdd7;
+  background-color: var(--background);
+  color: var(--text-color);
 }
-.col-12-console{
-    text-align: center;
-    padding-bottom: 3rem!important;
-    padding-top: 3rem!important;
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-.toggle-console-demo{
-    text-decoration: none;
-    cursor: pointer;
-    outline: 0;
-    box-shadow: none;
-    font-weight: 400;
-    display: inline-block;
-    text-align: center;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: 0.375rem 0.75rem;
-    font-size: .9rem;
-    line-height: 1.6;
-    border-radius: 0.25rem;
-    transition: color .15s;
-    flex: 0 0 100%;
-    max-width: 100%;
-    position: relative;
-    width: 100%;
-    text-transform: none;
-    overflow: visible;
-    margin: 0;
-}
-.d-flex-justify-console{
-    text-align: center;
-    justify-content: center!important;
-    margin-bottom: 1rem!important;
-    display: flex!important;
-}
-.d-flex-console-demo{
-    display: flex!important;    
-}
-.align-items-center{
-    padding: 0.5rem!important;
-    align-items: center!important;
-    display: flex!important;
-}
-.icon-collapse-up{
-    width: 48px;
-    height: 48px;
-    margin-bottom: 6px;
-    margin-right: 10px;
-    margin-top: -2px;
-    vertical-align: middle;
-    border-style: none;
-}
-.head-title-console-demo{
-    text-align: center;
-    font-size: 48px;
-    margin-bottom: 0.5rem!important;
-    margin: 0!important;
-    font-weight: 700;
 
+:root {
+  --text-color: black;
+  --background: rgb(255, 255, 255);
 }
-.text-console-demo{
-    padding: 0.5rem!important;
 
+[data-theme="dark"] {
+  --text-color: rgb(233, 241, 231);
+  --background: rgb(20, 19, 38);
 }
-.icon-arrow up{
-    padding: 0 16px;
-    margin-top: -2px;
-    vertical-align: middle;
-    border-style: none;
+
+.col-12-console {
+  text-align: center;
+  padding-bottom: 3rem !important;
+  padding-top: 3rem !important;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-.d-flex-icon-2{
-    padding: 0.5rem!important;
-    align-items: center!important;
-    display: flex!important;
-    margin-left: 50px;
+
+.toggle-console-demo {
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0;
+  box-shadow: none;
+  font-weight: 400;
+  display: inline-block;
+  text-align: center;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  border-radius: 0.25rem;
+  transition: color 0.15s;
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  text-transform: none;
+  overflow: visible;
+  margin: 0;
 }
+
+.d-flex-justify-console {
+  text-align: center;
+  justify-content: center !important;
+  margin-bottom: 1rem !important;
+  display: flex !important;
+}
+
+.d-flex-console-demo {
+  display: flex !important;
+}
+
+.align-items-center {
+  padding: 0.5rem !important;
+  align-items: center !important;
+  display: flex !important;
+}
+
+.icon-collapse-up {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 6px;
+  margin-right: 10px;
+  margin-top: -2px;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.head-title-console-demo {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 0.5rem !important;
+  margin: 0 !important;
+  font-weight: 700;
+}
+
+.text-console-demo {
+  padding: 0.5rem !important;
+}
+
+.icon-arrow up {
+  padding: 0 16px;
+  margin-top: -2px;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.d-flex-icon-2 {
+  padding: 0.5rem !important;
+  align-items: center !important;
+  display: flex !important;
+  margin-left: 50px;
+}
+
 /*----------- ส่วนของ video --------*/
-#background-demo{
-    background-image: url(https://www.tjmediathailand.com/images/background-console-demo.png?432ee30a860286fa7c9f38e9b0fbbfb2);
-    
-    background-color: transparent;
-    width: 100%;
-    padding: 30px 0 130px;
+#background-demo {
+  background-image: url(https://www.tjmediathailand.com/images/background-console-demo.png?432ee30a860286fa7c9f38e9b0fbbfb2);
+
+  background-color: transparent;
+  width: 100%;
+  padding: 30px 0 130px;
 }
-.card-body{
+
+.card-body {
   flex: 1 1 auto;
   min-height: 1px;
 }
-.container-demo{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+
+.container-demo {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.blackdrop{
-    width: 100%;
-    
-    margin: 0 auto;
-    max-width: 830px;
-    padding: 16px;
-    border-radius: 20px;
-    opacity: 1;
-    backdrop-filter: blur(10px);
-    background-color: hsla(0, 0%, 100%, .5);
+
+.blackdrop {
+  width: 100%;
+
+  margin: 0 auto;
+  max-width: 830px;
+  padding: 16px;
+  border-radius: 20px;
+  opacity: 1;
+  backdrop-filter: blur(10px);
+  background-color: hsla(0, 0%, 100%, 0.5);
 }
-.row-video{
-    
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+
+.row-video {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
-.play-video{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 0%;
-    border: unset;
-    outline: unset;
-    background-color: transparent;
-    cursor: pointer;
-    
+
+.play-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0%;
+  border: unset;
+  outline: unset;
+  background-color: transparent;
+  cursor: pointer;
 }
-.thumbnail-video{
-    
-    width: 100%;
-    margin: 0 auto;
-    vertical-align: middle;
-    border-style: none;
+
+.thumbnail-video {
+  width: 100%;
+  margin: 0 auto;
+  vertical-align: middle;
+  border-style: none;
 }
 
 /*----------- footer -------------*/
-#footer{
-    background-image: url('/images/footer.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-color: transparent;
-    height: 360px;
+#footer {
+  background-image: url("/images/footer.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: transparent;
+  height: 360px;
 }
-.footer-container{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    height: 350px;
 
+.footer-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 350px;
 }
-.context{
-    padding-top: 3rem;
 
+.context {
+  padding-top: 3rem;
 }
-.context-detail{
-    text-align: center;
-    margin-bottom: 0.5rem;
-    margin: 0;
-    color: #fff;
-    font-weight: 700;    
+
+.context-detail {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
 }
-.background-line{
-    max-width: 400px;
-    position: relative;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
+
+.background-line {
+  max-width: 400px;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
 }
-.card-line{
-    margin-top: 60px;
-    background-color: #fff;
-    border-radius: 14px;
-    width: 100%;
-    position: relative;
+
+.card-line {
+  margin-top: 60px;
+  background-color: #fff;
+  border-radius: 14px;
+  width: 100%;
+  position: relative;
 }
-.content-id{
-    text-align: center;
-    color: #612c91;
-    padding: 8px 16px;
+
+.content-id {
+  text-align: center;
+  color: #612c91;
+  padding: 8px 16px;
 }
-.copy-text{
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-top: -50px;
+
+.copy-text {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: -50px;
 }
-.head-title-copy{
-    color: #fff;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 0;
+
+.head-title-copy {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 0;
 }
