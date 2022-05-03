@@ -13,6 +13,10 @@ p {
   margin-block-end: 1em;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 /*------------ header ----------*/
 header {
   background-color: #f8fafc;
@@ -30,6 +34,7 @@ header {
   align-items: center;
   font-size: 20px;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 #logo-left {
@@ -65,21 +70,25 @@ header {
 .detail-1-container {
   text-align: center;
   color: #f05928;
-  font-size: 17px;
-  padding: 60px;
+  font-size: 60px;
+  padding-top: 50px;
+  font-weight: 700;
+  line-height: 1;
 }
 
 .detail-2-container {
   text-align: center;
   color: #fff;
-  font-size: 35px;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1;
 }
 
 .detail-3-container {
-  padding: 20px;
   text-align: center;
   color: #f05928;
-  font-size: 20px;
+  font-size: 25px;
+  line-height: 1;
 }
 
 .header-sec {
@@ -90,7 +99,7 @@ header {
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  width: 80%;
+  width: 50%;
 }
 
 .sec-1 {
@@ -141,6 +150,19 @@ header {
   /* border: 1px solid red; */
 }
 
+.text-slider {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.text-slider-datail {
+  margin-left: -5px;
+  font-size: 17px;
+  color: #707070;
+  display: flex;
+  flex-direction: column;
+}
+
 .carousel-item {
   height: 25rem;
 
@@ -172,6 +194,18 @@ header {
   overflow: hidden;
   margin: 0;
   padding: 0;
+  background-color: #fff;
+  border-radius: 14px;
+  height: 200px;
+}
+
+.local-mass {
+  margin-top: 90px;
+  width: 120px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .container-slider {
@@ -183,7 +217,19 @@ header {
 }
 
 .desc-1 {
-  margin-left: 0;
+  margin-left: -5px;
+}
+
+.carousel-control-prev {
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 135px;
+}
+
+.carousel-control-next {
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 135px;
 }
 
 /*------ หน้า First time --------*/
@@ -201,8 +247,9 @@ header {
 .first-time-text {
   text-align: center;
   font-size: 44px;
+  font-weight: 700;
   color: #3f3f3f;
-  padding-top: 3rem;
+  padding-top: 5rem;
   position: relative;
   width: 100%;
   padding-right: 15px;
@@ -251,13 +298,28 @@ header {
 
 /* หน้า innovative */
 #innovative {
-  background-image: unset;
-  padding: 60px 0;
+  background-image: url(https://www.tjmediathailand.com/images/background-innovative.png?2b72faac231e5f5bb1959483c13f0b28);
+  background-size: 100% 100%;
   background-color: #fff;
-  padding: 0;
-  text-align: center;
+  padding: 50px;
+  position: relative;
   width: auto;
-  height: 800px;
+}
+
+.card-slick {
+  background-color: #fff;
+  border-radius: 14px;
+  width: 100%;
+  position: relative;
+  padding: 32px 64px;
+}
+
+.background-slick {
+  max-width: 904px;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .img-innovative {
@@ -267,12 +329,14 @@ header {
 }
 
 .title-innovative {
+  padding-top: 2rem;
   font-size: 36px;
   font-weight: 700;
   color: #3f3f3f;
 }
 
 .context-destop {
+  text-align: center;
   padding: 0;
 }
 
@@ -284,16 +348,18 @@ header {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-left: 300px;
-  margin-right: 300px;
   font-size: 20px;
+}
+
+.datail-text-in {
+  padding-top: 1rem !important;
+  display: flex;
 }
 
 /*---------- หน้า MASS ---------*/
 #mass-brand {
   background-color: #612c91;
   width: 100%;
-  height: 600px;
   margin: auto;
 }
 
@@ -362,7 +428,7 @@ header {
 
 .main-icon {
   width: 48px;
-  margin-top: 10px;
+  margin-top: -10px;
   margin-right: 10px;
 }
 
@@ -492,10 +558,14 @@ header {
 #advertiser {
   background-color: #461860;
   margin-top: -30px;
+  width: 100%;
+}
+
+.img-datail {
+  width: 100%;
 }
 
 .container-fluid {
-  width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -591,7 +661,6 @@ header {
 .d-flex-justify-console {
   text-align: center;
   justify-content: center !important;
-  margin-bottom: 1rem !important;
   display: flex !important;
 }
 
@@ -702,6 +771,54 @@ header {
   border-style: none;
 }
 
+/*------- Modal --------------*/
+.iframe-container {
+  margin: auto;
+  width: 700px;
+  height: 500px;
+}
+
+.modal-content {
+  width: 140% !important;
+  margin-top: 100px;
+  margin-left: -130px;
+  margin-right: -130px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.close-modal {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  z-index: 9;
+  cursor: pointer;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa {
+  font-weight: 900;
+  display: inline-block;
+  font-style: normal;
+  text-rendering: auto;
+  margin-top: 2.5px;
+  font-weight: bolder;
+}
+
 /*----------- footer -------------*/
 #footer {
   background-image: url("/images/footer.png");
@@ -750,6 +867,7 @@ header {
   text-align: center;
   color: #612c91;
   padding: 8px 16px;
+  font-weight: 700;
 }
 
 .copy-text {
