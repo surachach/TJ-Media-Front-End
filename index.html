@@ -8,6 +8,13 @@
     <title>TJ Media Thailand</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Kanit|Sarabun&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -22,18 +29,19 @@
         </p>
     </header>
     <div class="first-container">
-        <div class="detail-1-container">
-            <h3>THAILAND LARGEST</h3>
-        </div>
-        <div class="detail-2-container">
-            <h2>LOCAL RADIO NETWORK</h2>
-        </div>
-        <div class="detail-3-container">
-            <h3>เครือข่ายวิทยุชุมชน ที่ใหญ่และเข้าถึงมากที่สุด</h3>
+        <div>
+            <div class="detail-1-container">
+                <h3>THAILAND LARGEST</h3>
+            </div>
+            <div class="detail-2-container">
+                <h2>LOCAL RADIO NETWORK</h2>
+            </div>
+            <div class="detail-3-container">
+                <h3>เครือข่ายวิทยุชุมชน ที่ใหญ่และเข้าถึงมากที่สุด</h3>
+            </div>
         </div>
     </div>
-    </div>
-    </div>
+
     <div class="second-container">
         <div>
             <div class="header-sec">
@@ -70,16 +78,84 @@
         </div>
     </div>
 
-    <div id="slider-container">
-        <div class="slider">
-            <h1>กลุ่มเป้าหมายของคุณ คือ Local Mass Market หรือไม่?</h1>
-            <ul>
-                <li>กลุ่มคนต่างจังหวัด ชาวบ้านทั่วไป หนุ่ม-สาวโรงงาน White Collar แรงงานไทย-ต่างด้าว</li>
-                <li>กลุ่ม Target ที่กระจายตัวกว้างเชิง Geo Location ทั้งหัวเมืองหลัก เมืองรอง อำเภอชายขอบ</li>
-            </ul>
+
+    <div id="slider-container-1">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="local-mass-maket">
+                <div class="container-slider">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="carousel-caption">
+                                <img class="local-mass" src="https://www.tjmediathailand.com/images/target.png" />
+                                <div>
+                                    <p class="title">กลุ่มเป้าหมายของคุณ คือ Local Mass Market หรือไม่?</p>
+                                </div>
+                                <div>
+                                    <li class="dot"><span class="desc">กลุ่มคนต่างจังหวัด ชาวบ้านทั่วไป หนุ่ม-สาวโรงงาน
+                                            White Collar แรงงานไทย-ต่างด้าว</span></li>
+                                    <li class="dot"><span class="desc">กลุ่ม Target ที่กระจายตัวกว้างเชิง Geo Location
+                                            ทั้งหัวเมืองหลัก เมืองรอง อำเภอชายขอบ</span></li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="carousel-caption">
+                                <img class="local-mass"
+                                    src="https://www.tjmediathailand.com/images/key_challenge.png" />
+                                <div>
+                                    <p class="title">Key Challenge</p>
+                                </div>
+                                <div>
+                                    <li class="dot"><span class="desc">ต้องการเพิ่มยอดขาย รักษาตลาด Mass
+                                            แต่ลงทุนกับสื่อทีวีหลักตลอดไป ไม่ไหวนะ</span></li>
+                                    <li class="dot"><span class="desc">ต้องการขยายตลาดใหม่ มีวิธีไหนที่ Effective</span>
+                                    </li>
+                                    <li class="dot"><span class="desc">แม้กลุ่มเป้าหมายกว้าง แต่ก็ต้องการ Localize
+                                            ลึกขึ้น</span></li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <img class="local-mass" src="https://www.tjmediathailand.com/images/Influencer.png" />
+                                <div>
+                                    <p class="title">ทางเลือกที่น่าสนใจ</p>
+                                </div>
+                                <div>
+                                    <li class="dot"><span class="desc">สื่อวิทยุชุมชน มีเสน่ห์อย่างคาดไม่ถึง มีความ
+                                            Localize ลงลึกในแต่ละพื้นที่ ทั้งภาษาและสไตล์</span></li>
+                                    <li class="dot"><span class="desc">DJ คือ Influencer ประจำท้องถิ่นดีๆ นี่เอง</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+
+                <img style="width: 48px;" src="https://www.tjmediathailand.com/images/icon/arrow-left.png" />
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+
+                <img style="width: 48px;" src="https://www.tjmediathailand.com/images/icon/arrow-right.png" />
+            </button>
         </div>
     </div>
-    <hr />
+
+
+
     <div id="first-time-container">
         <div class="row">
             <div class="first-time-text">
@@ -295,6 +371,7 @@
     <!-- javaScript -->
 
     <script>
+        const textColor = document.getElementsByClassName('text-console-demo');
 
         function onclickFeature(detail) {
             const ele = document.getElementById(detail);
